@@ -1,6 +1,8 @@
 """
 Example: Saudi Arabic voice agent with MARBERT turn detection
 """
+from dotenv import load_dotenv
+load_dotenv()
 import asyncio
 from livekit.plugins.marbert import MarbertTurnDetector
 from livekit.agents import (
