@@ -1,7 +1,10 @@
 # LiveKit MARBERT Turn Detector
 
-Arabic End-of-Utterance detection plugin for LiveKit Agents using fine-tuned MARBERT.
+[![PyPI version](https://badge.fury.io/py/livekit-plugins-marbert.svg)](https://pypi.org/project/livekit-plugins-marbert/)
+[![Python](https://img.shields.io/pypi/pyversions/livekit-plugins-marbert.svg)](https://pypi.org/project/livekit-plugins-marbert/)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
+Arabic End-of-Utterance detection plugin for LiveKit Agents using fine-tuned MARBERT.
 ## Installation
 ```bash
 pip install livekit-plugins-marbert
@@ -108,7 +111,7 @@ If you use this model in your research, please cite:
 ```
 
 ## Links
-
+- [PyPI Package](https://pypi.org/project/livekit-plugins-marbert/)
 - [GitHub Repository](https://github.com/azeddinshr/livekit-plugins-marbert)
 - [Fine-tuned Model](https://huggingface.co/azeddinShr/marbert-arabic-eou)
 - [Training Dataset](https://huggingface.co/datasets/azeddinShr/arabic-eou-sada22)
