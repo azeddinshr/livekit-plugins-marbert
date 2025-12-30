@@ -45,3 +45,9 @@ Thumbs.db
 .pytest_cache/
 .coverage
 htmlcov/
+
+# Examples environment
+examples/__pycache__/
+examples/.vscode/
+examples/.env
+examples/venv/
