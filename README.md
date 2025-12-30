@@ -6,6 +6,13 @@
 
 Arabic End-of-Utterance detection plugin for LiveKit Agents using fine-tuned MARBERT.
 
+## Demo
+
+<video controls width="100%">
+  <source src="https://github.com/user-attachments/assets/84f6531d-10a8-4beb-8165-9e16e135783c" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 ---
 
 ## Installation
