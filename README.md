@@ -44,6 +44,9 @@ pip install livekit-plugins-marbert livekit-plugins-openai livekit-plugins-siler
 cp .env.example .env
 # Edit .env and add your OPENAI_API_KEY
 
+# Pre-download models (recommended)
+python download_models.py
+
 # Run the agent
 python my_agent.py console
 ```
