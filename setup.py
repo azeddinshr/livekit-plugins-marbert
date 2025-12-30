@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 setup(
     name="livekit-plugins-marbert",
-    version="0.1.0",
+    version="0.1.1",
     description="Arabic End-of-Utterance detection for LiveKit using MARBERT",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -17,6 +17,7 @@ setup(
         "livekit-agents>=1.3.9,<2.0.0",
         "transformers>=4.30.0,<5.0.0",
         "torch>=2.0.0,<3.0.0",
+        "numpy>=1.21.0,<2.0.0",
     ],
     python_requires=">=3.9",
     classifiers=[
